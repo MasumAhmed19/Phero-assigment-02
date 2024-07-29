@@ -158,7 +158,7 @@
 
 /* ------------Main------------- */
     /* Hero Section */
-    .habit-section , .hero-section, .run-section{
+    .habit-section , .hero-section, .run-section, .bmi-section{
         background-color: black;
         margin: 0 auto;
         justify-content: center;
@@ -340,6 +340,40 @@
         width: 100%;
         border-radius: 15px;
     }
+
+
+
+
+
+
+
+
+    /* BMI SECTION */
+
+    .bmi-div{
+        flex-direction: column;
+        max-width: 800px;
+        align-items: start;
+        padding: 20px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* ------------------------- */
 
