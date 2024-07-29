@@ -30,8 +30,8 @@
 
 .title-01{
     font-family: "Inter", sans-serif;
-    font-size: 3rem;
-    font-weight: 700;
+    font-size: 3.2rem;
+    font-weight: 800;
     text-align: left;
     color: rgb(255, 255, 255);
     /* line-height: 120%; */
@@ -158,12 +158,12 @@
 
 /* ------------Main------------- */
     /* Hero Section */
-    .hero-section{
+    .habit-section , .hero-section{
         background-color: black;
         margin: 0 auto;
         justify-content: center;
         align-items: center;
-        padding: 75px 10px;
+        padding: 60px 10px;
     }
 
     .hero-div{
@@ -275,6 +275,36 @@
         position: relative;
     } 
 
+    /* Habit Section */
+
+    .habit-div{
+        width: 1300px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 10px auto;
+        gap: 20px;
+    }
+
+    .habit-card-contents{
+        gap: 30px;
+        margin-top: 30px;
+    }
+
+    .habit-card{
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .habit-card > img {
+        border-radius: 50%;
+    }
+
+    .habit-card > p {
+        text-align: center;
+    }
+
 
 
 /* ------------------------- */
@@ -329,7 +359,7 @@
         margin: 0 auto;
         justify-content: center;
         align-items: center;
-        padding: 75px 10px;
+        padding: 60px 10px;
     }
 
     .hero-div{
@@ -441,6 +471,39 @@
         flex-direction: column;
         align-items: start;
     }
+
+
+
+
+
+
+
+
+        /* Habit Section */
+
+        .habit-div{
+            width: 100%;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 10px auto;
+            gap: 20px;
+        }
+
+        .habit-div > h2 {
+            text-align: center;
+        }
+        .habit-div > p {
+            text-align: center;
+        }
+    
+        .habit-card-contents{
+            flex-direction: column;
+            gap: 30px;
+            margin-top: 30px;
+        }
+    
+    
 
     
 
