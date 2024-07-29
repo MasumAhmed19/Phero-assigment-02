@@ -158,7 +158,7 @@
 
 /* ------------Main------------- */
     /* Hero Section */
-    .habit-section , .hero-section, .run-section, .bmi-section{
+    .habit-section , .hero-section, .run-section, .bmi-section, .team-section{
         background-color: black;
         margin: 0 auto;
         justify-content: center;
@@ -408,6 +408,121 @@
 
 
 
+    /* Meet Our Team */
+    .team-div{
+        max-width: 1300px;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .team-content{
+        flex-direction: column;
+        gap:20px;
+    }
+    
+    .team-content  h2{
+        text-align: center;
+    }
+    .team-content  p{
+        text-align: center;
+    }
+
+    .team-img-div{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap:40px;
+        
+    }
+
+    .team-img-div  h4{
+        font-family: "Inter", sans-serif;
+        font-size: 1rem;
+        font-weight: 900;
+        text-align: left;
+        color: rgb(255, 255, 255);
+    }
+
+
+    .team1{
+        flex-direction: column;
+        align-items: start;
+        justify-content: flex-end;
+        width: 350px;
+        height: 250px;
+        border-radius: 15px;
+        background:linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(0,0,0,0.5) 100%), url('/images/trainer1.png');
+        background-position: top center;
+        background-size: cover;
+        padding: 15px;
+    }
+
+    
+    .team2{
+        flex-direction: column;
+        align-items: start;
+        justify-content: flex-end;
+        width: 350px;
+        height: 250px;
+        border-radius: 15px;
+        background:linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(0,0,0,0.5) 100%), url('/images/trainer2.png');
+        background-position: top center;
+        background-size: cover;
+        padding: 15px;
+    }
+
+
+    .team3{
+        flex-direction: column;
+        align-items: start;
+        justify-content: flex-end;
+        width: 350px;
+        height: 250px;
+        border-radius: 15px;
+        background:linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(0,0,0,0.5) 100%), url('/images/trainer3.png');
+        background-position: top center;
+        background-size: cover;
+        padding: 15px;
+    }
+
+    .team4{
+        flex-direction: column;
+        align-items: start;
+        justify-content: flex-end;
+        width: 350px;
+        height: 250px;
+        border-radius: 15px;
+        background:linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(0,0,0,0.5) 100%), url('/images/trainer4.png');
+        background-position: top center;
+        background-size: cover;
+        padding: 15px;
+    }
+
+    .team5{
+        flex-direction: column;
+        align-items: start;
+        justify-content: flex-end;
+        width: 350px;
+        height: 250px;
+        border-radius: 15px;
+        background:linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(0,0,0,0.5) 100%), url('/images/trainer5.png');
+        background-position: top center;
+        background-size: cover;
+        padding: 15px;
+    }
+
+    .team6{
+        flex-direction: column;
+        align-items: start;
+        justify-content: flex-end;
+        width: 350px;
+        height: 250px;
+        border-radius: 15px;
+        background:linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(0,0,0,0.5) 100%), url('/images/trainer6.png');
+        background-position: top center;
+        background-size: cover;
+        padding: 15px;
+    }
 
 
 
@@ -696,7 +811,31 @@
 
 
 
+    /* Meet our Team */
 
+    .team-div{
+        max-width: 100%;
+        flex-direction: column;
+        gap: 30px;
+        gap: 20px;
+    }
+
+    .team-img-div{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap:40px;
+        padding: 20px;
+        margin: 0 auto;
+        
+    }
+
+
+
+    .team1, .team2, .team3, .team4, .team5, .team6{
+        width: 300px;
+        height: 300px;
+    }
 
 
 
