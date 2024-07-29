@@ -357,8 +357,54 @@
         padding: 20px;
     }
 
+    /*  */
+
+    .bmi-cal-section{
+        background: rgb(34, 34, 34);
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+        padding: 60px 10px;  
+    }
 
 
+    .bmi-cal-div{
+        gap: 40px;
+
+    }
+
+    .bmi-table-div{
+        width: 100%;
+    }
+
+
+    .bmi-table{
+        width: 70%;
+        border-collapse: collapse;
+        margin: 20px 0;
+    }
+
+    .bmi-table, th, td{
+        padding: 13px;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    th{
+        font-weight: 400;
+    }
+
+    .t-head {
+        text-align: left;
+        color: white;
+    }
+
+    .bmi-form-div{
+        width: 100%;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+     
 
 
 
@@ -598,7 +644,53 @@
 
 
     
-    
+    /* BMI calculator */
+
+    .bmi-cal-section{
+        background: rgb(34, 34, 34);
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+        padding: 60px 10px;  
+    }
+
+
+    .bmi-cal-div{
+        flex-direction: column;
+        gap: 40px;
+        padding: 20px;
+    }
+
+    .bmi-table-div{
+        width: 100%;
+    }
+
+
+    .bmi-table{
+        width: 80%;
+        border-collapse: collapse;
+        margin: 20px 0;
+    }
+
+    .bmi-table, th, td{
+        padding: 13px;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    th{
+        font-weight: 400;
+    }
+
+    .t-head {
+        text-align: left;
+        color: white;
+    }
+
+    .bmi-form-div{
+        width: 100%;
+        flex-direction: column;
+        gap: 20px;
+    }
 
     
 
@@ -627,6 +719,13 @@
         /* line-height: 120%; */
     }
     
+    .title-02{
+        
+        font-size: 1.2rem;
+        font-weight: 500;
+        
+        /* line-height: 120%; */
+    } 
     
     
 }
