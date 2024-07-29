@@ -270,6 +270,12 @@
     }
 
 
+    .hero-img{
+        z-index:10; 
+        position: relative;
+    } 
+
+
 
 /* ------------------------- */
 
@@ -336,7 +342,7 @@
     .hero-left-content{
         width: auto;
         flex-direction: column;
-        gap: 15px;
+        gap: 25px;
         padding: 10px;
         align-items: flex-start;
         justify-content: start;
@@ -366,11 +372,13 @@
         
     }
 
-
+    .hero-img{
+        position: relative; 
+    } 
 
     .left-down{
         flex-direction: column;
-        z-index: 1;
+
     }
 
     .left-down-content{
@@ -382,8 +390,9 @@
         background: rgba(48, 48, 48, 0.54);
         align-items: center;
         position: absolute;
-        margin-top: 500px;
-        margin-left: -150px;
+        margin-top: 300px;
+        margin-left: 20px;
+        z-index: 100;
 
     }
 
@@ -417,8 +426,8 @@
         background: rgba(48, 48, 48, 0.54);
         align-items: center;
         position: absolute;
-        margin-top: -800px;
-        margin-left: 230px;
+        margin-top: -890px;
+        margin-left: 180px;
     }
 
     .right-down-content > h4{
