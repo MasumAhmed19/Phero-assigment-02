@@ -218,8 +218,9 @@
         background: rgba(48, 48, 48, 0.54);
         align-items: center;
         position: absolute;
-        margin-top: 500px;
-        margin-left: -150px;
+        margin-top: 450px;
+        margin-left: -120px;
+        z-index: 100;
 
     }
 
