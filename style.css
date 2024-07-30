@@ -540,7 +540,58 @@
 
 
 /* ------------Footer------------- */
+    footer {
+        flex-direction: column;
+        background-color: #1A1A1A;
+        justify-content: center;
+        align-items: center;
+        padding: 60px 0px;
+    }
 
+    .footer-content{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        max-width: 1300px;
+        gap: 20px;
+    }
+
+    .left, .middle, .right{
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .quick-ul{
+        padding: 0;
+    }
+
+
+    .quick-ul > li{
+        list-style: none;
+        padding-top: 10px;
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 0.9rem;
+        font-weight: 300;
+    }
+
+    .quick-ul > li a{
+        text-decoration: none;
+        color: rgba(255, 255, 255, 0.5);
+    }
+
+
+    .copywrite-div{
+        width: 1300px;
+        margin: 50px auto;
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .copywrite-div > hr{
+        border: 1.5px solid rgba(255, 255, 255, 0.1);
+        width: 100%;
+    }
 
 /* ------------------------- */
 
@@ -553,6 +604,7 @@
     .header-section{
         background-color: rgb(0, 0, 0);
         margin: 0 auto;
+        padding: 10px;
     }
     
     .nav-div{
@@ -588,7 +640,7 @@
         margin: 0 auto;
         justify-content: center;
         align-items: center;
-        padding: 60px 10px;
+        padding: 60px 20px;
     }
 
     .hero-div{
@@ -841,6 +893,40 @@
 
 
 
+
+
+    /* ------------Footer------------- */
+    footer {
+        padding: 40px 40px;
+    }
+
+    .footer-content{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        max-width: 100%;
+        gap: 30px;
+    }
+
+    .left, .middle, .right{
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .quick-ul{
+        padding: 0;
+    }
+
+    .copywrite-div{
+        width: 100%;
+        margin: 50px auto;
+        flex-direction: column;
+        gap: 15px;
+        align-items: start;
+        justify-content: center;
+    }
+
+
+/* ------------------------- */
 
 
 
