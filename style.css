@@ -977,6 +977,20 @@
         gap: 20px;
     }
 
+
+
+    /* form */
+    form{
+        display: flex;
+        flex-direction: row
+    }
+
+    .content1{
+        display: grid;
+        
+    }
+
+
     
 
 
