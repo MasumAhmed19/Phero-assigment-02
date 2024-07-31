@@ -15,7 +15,7 @@
 
 /* ------------Shared Styles------------- */
 *{
-    margin: 0 0;
+    margin: 0;
 }
 
 .des-text{
@@ -980,26 +980,42 @@
 
 
     /* form */
-    .bmi-form-container{
 
-    }
-
-    .bmi-form-container > form{
-        display: flex;
+    .row{
         flex-direction: column;
-        justify-content: center;
-        align-items: flex-start;
+        gap: 20px
     }
 
-    form > .content1{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        
+    .fomr-row{
+        margin: 20px 0;
     }
 
-    .content1 > input{
-        border: 2px solid orange;
+    .input-data input{
+        display: block;
+        width: 100%;
+        height: 100%;
+        border: none;
+        font-size: 1rem;
+        padding: 10px;
     }
+
+    .input-data{
+        width: 100%;
+        height: 30px;
+        margin: 0 20px;
+    }
+
+    .input-data  select{
+        display: block;
+        width: 100%;
+        height: 100%;
+        border: none;
+        font-size: 1rem;
+        padding: 10px;
+    }
+
+    
+
 
 
     
