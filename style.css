@@ -980,14 +980,25 @@
 
 
     /* form */
-    form{
-        display: flex;
-        flex-direction: row
+    .bmi-form-container{
+
     }
 
-    .content1{
+    .bmi-form-container > form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    form > .content1{
         display: grid;
+        grid-template-columns: repeat(2, 1fr);
         
+    }
+
+    .content1 > input{
+        border: 2px solid orange;
     }
 
 
