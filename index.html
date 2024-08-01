@@ -6,59 +6,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fitness Freak</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     
-    <!-- Inter Fonts -->
+    
     <style>
+        /* <!-- Inter Fonts --> */
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
-    </style>
-
-    <!-- Great Vibes Fonts -->
-    <style>
+        
+        /* <!-- Great Vibes Fonts --> */
         @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playwrite+DK+Loopet:wght@100..400&display=swap');
     </style>
+    
 
-    <style>
-         .row{
-            flex-direction: column;
-            gap: 50px;
-            margin: 0;
-        }
-
-        .fomr-row{
-            margin: 0px 0;
-        }
-
-        .input-data input{
-            display: block;
-            width: 100%;
-            height: 100%;
-            border: none;
-            font-size: 1rem;
-            padding: 10px 0;
-            
-        }
-
-        .input-data{
-            width: 100%;
-            height: 30px;
-            margin: 0 20px;
-            position: relative;
-        }
-
-        .input-data  select{
-            display: block;
-            width: 100%;
-            height: 100%;
-            border: none;
-            font-size: 1rem;
-            padding: 10px 0;
-        }
-    </style>
-
+    
+   
+       
 
 </head>
 
@@ -208,48 +173,47 @@
                     <p class="des-text">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
                     <!-- form--------------------------------------------------------- -->
                     <form action="">
-                        <div class="row display-flex">
-                            <div class="form-row display-flex">
-                                <div class="input-data">
-                                    <input type="number" id="height" placeholder="Height/cm" required>
-                                </div>
-                                <div class="input-data">
-                                    <input type="number" id="weight" placeholder="Weight/cm" required>
-                                </div>
+                       
+                        <div class="form-row ">
+                            <div class="input-data">
+                                <input type="text" id="height" placeholder="Height/cm" required>
                             </div>
                             
-                            <div class="form-row display-flex">
-                                <div class="input-data">
-                                    <input type="number" id="age" placeholder="Age" required>
-                                </div>
-                                <div class="input-data">
-                                    <select name="sex" id="sex" required class="select-sex">
-                                        <option value="" disabled selected>Sex</option>
-                                        <option value="male" >Male</option>
-                                        <option value="female" >Female</option>
-                                        <option value="others" >Others</option>
-                                    </select>
-                                </div>
+                            <div class="input-data">
+                                <input type="text" id="weight" placeholder="Weight/cm" required>
                             </div>
-
-                            <div class="form-row display-flex">
-                                <div class="input-data">
-                                    <select name="activity" id="activity" required class="activity">
-                                        <option value="" disabled selected>Select an activity factor</option>
-                                        <option value="light" >Light</option>
-                                        <option value="moderate" >Moderate</option>
-                                        <option value="active" >Active</option>
-                                        <option value="very-active" >Very Active</option>
-                                    </select>
-                                </div>
+                            
+                            <div class="input-data">
+                                <input type="text" id="age" placeholder="Age" required>
                             </div>
+                            
+                            <div class="input-data">
+                                <select name="sex" id="sex" required class="select-sex">
+                                    <option value="" disabled selected>Sex</option>
+                                    <option value="male" >Male</option>
+                                    <option value="female" >Female</option>
+                                    <option value="others" >Others</option>
+                                </select>
+                            </div>
+                            
+                            <div class="input-data">
+                                <select name="activity" id="activity" required class="activity">
+                                    <option value="" disabled selected>Select an activity factor</option>
+                                    <option value="light" >Light</option>
+                                    <option value="moderate" >Moderate</option>
+                                    <option value="active" >Active</option>
+                                    <option value="very-active" >Very Active</option>
+                                </select>
+                            </div>
+                        </div>
+                            
                             <div class="form-row display-flex">
                                 <div class="input-data">
                                     <button type="submit">Calculate</button>
                                 </div>
                             </div>
                             
-                        </div>
+                        
                         
                     </form>
 
