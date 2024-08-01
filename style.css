@@ -399,12 +399,62 @@
         color: white;
     }
 
+    /* form section */
+
     .bmi-form-div{
         width: 100%;
         flex-direction: column;
         gap: 20px;
     }
 
+    .form-row{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); 
+        gap: 15px;
+    }
+
+    .input-data{
+        border-radius: 8px;
+        background: rgba(255, 255, 255, 0.1);
+    }
+
+    .input-data input{
+        width: 100%;
+        border: none;
+        padding: 15px;
+        background-color: rgba(255, 255, 255, 0);
+        color: rgba(255, 255, 255, 0.7);
+        font-size: 1rem;
+
+    }
+
+    .input-data select{
+        width: 100%;
+        border: none;
+        padding: 15px;
+        background-color: rgba(255, 255, 255, 0);
+        color: rgba(255, 255, 255, 0.7);
+        font-size: 1rem;
+       
+    }
+
+    input:focus, select:focus{
+        outline: none;
+    }
+
+    select option{
+        background-color: #000000;
+        /* base font color */
+        color: #E6533C;
+    }
+   
+    #colspan2{
+        grid-column: span 2;
+    }
+
+    .form-btn{
+        margin-top: 15px;
+    }
      
 
 
@@ -973,27 +1023,74 @@
 
 
     /* form section*/
-    .bmi-form-div{
+
+     /* form section */
+
+     .bmi-form-div{
         width: 100%;
         flex-direction: column;
         gap: 20px;
     }
 
-
-
-    
-
     form {
         display: flex;
-        background-color: white;
+        flex-direction: column;
     }
 
     .form-row{
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        background-color: aliceblue;
+        grid-template-columns: repeat(2, 1fr); 
+        gap: 15px;
     }
 
+    .input-data{
+        border-radius: 8px;
+        background: rgba(255, 255, 255, 0.1);
+    }
+
+    .input-data input{
+        width: 100%;
+        border: none;
+        padding: 15px;
+        background-color: rgba(255, 255, 255, 0);
+        color: rgba(255, 255, 255, 0.7);
+        font-size: 1rem;
+
+    }
+
+    .input-data select{
+        width: 100%;
+        border: none;
+        padding: 15px;
+        background-color: rgba(255, 255, 255, 0);
+        color: rgba(255, 255, 255, 0.7);
+        font-size: 1rem;
+       
+    }
+
+    input:focus, select:focus{
+        outline: none;
+    }
+
+    select option{
+        background-color: #000000;
+        /* base font color */
+        color: #E6533C;
+    }
+   
+    #colspan2{
+        grid-column: span 2;
+    }
+
+    .form-btn{
+        margin-top: 15px;
+    }
+     
+
+
+    
+
+   
 
 
     
