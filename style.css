@@ -112,6 +112,11 @@
 
 .nav-bar{
     gap: 40px;
+    justify-content: space-between;
+    border: 1px solid rgba(255, 255, 255, 0.295);
+    border-radius: 30px;
+    padding: 5px;
+
 }
 
 .nav-bar > li{
@@ -145,6 +150,7 @@
     padding: 5px 15px;
     border-radius: 30px;
     background: rgb(230, 83, 60);
+    margin-left: -5px;
 }
 
 
